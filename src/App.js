@@ -80,8 +80,16 @@ const CurrentResults = () => {
                   bottom: 0
                 }}
               >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="numberOfTrades" label={"Number of Trades"} />
+                <CartesianGrid
+                  strokeDasharray="5 5"
+                  horizontal={true}
+                  vertical={false}
+                />
+                <XAxis
+                  dataKey="numberOfTrades"
+                  label={"Number of Trades"}
+                  interval="preserveEnd"
+                />
                 <YAxis label={"Balance"} />
                 <Tooltip />
                 <Area
