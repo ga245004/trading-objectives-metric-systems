@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f2f2f6;
+}
+
+.skeletonImg {
+  display: block;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+.current-results .card {
+  text-align: left;
+  margin-left: 8px;
+}
+
+.current-results .card .card-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+
+.current-results .card .card-header h3 {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 14px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.current-results .card .card-header .buttons-container {
+  display: flex;
+  text-align: end;
+  margin-right: 10px;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.current-results .buttons-container button {
+  margin: 0px 10px;
+  padding: 10px 15px;
+  background-color: #2447a1;
+}
+
+.current-results .buttons-container button .action-icon {
+  margin-right: 2px;
+  zoom: 1.5;
+}
+.objective-header {
+  padding: 10px;
+}
+.objective-row {
+  padding: 10px;
+  border-bottom: 2px dashed#ebedf3;
+}
+
+.objective-row .col,
+.objective-row .col-6 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.objective-col-objectives {
+}
+
+.objective-col-result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.objective-col-summary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.objective-row-expand-button {
+  zoom: 1.5;
+  margin-left: -20px;
+  margin-right: 6px;
+}
+
+.objective-row-passed-check {
+  zoom: 1.2;
+  border-radius: 17px;
+  background-color: #63cc76;
+  width: 16px;
+  height: 15px;
+  align-items: center;
+  display: inline-flex;
+  color: white;
+  justify-content: center;
+}
