@@ -97,3 +97,15 @@
   color: white;
   justify-content: center;
 }
+
+.chart-y-axis-lable {
+  transform: rotate(270deg);
+  transform-origin: 3% 50%;
+  font-weight: 900;
+}
+
+.chart-x-axis-lable {
+  transform: rotate(0deg);
+  transform-origin: 3% 50%;
+  font-weight: 900;
+}
